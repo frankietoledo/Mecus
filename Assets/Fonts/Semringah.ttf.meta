@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bc162a648fc548849a889dd5ac5d7e1e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Semringah
+  fontNames:
+  - Semringah
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 82410a3f3fda2f04abb781afd6ea743f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
