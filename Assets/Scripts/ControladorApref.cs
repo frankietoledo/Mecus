@@ -16,6 +16,8 @@ public class ControladorApref : MonoBehaviour
     /// </summary>
     private int nivelActual;
     private int maximoNivelAlcanzado;
+    public AudioClip sonidoVictoria;
+    public AudioSource au;
     //usadas para llevar la cuenta de cuantas cosas tiene
     private int pienasint;
     private int estrellaint;
@@ -118,9 +120,11 @@ public class ControladorApref : MonoBehaviour
 
         if (maximoNivelAlcanzado < nivelActual && nivelActual <= 4)
         {
+            
             actualizarItems( 1, 2 );
             maximoNivelAlcanzado += 1;
             PlayerPrefs.SetInt( "maximoNivelAlcanzadoApref", maximoNivelAlcanzado );
+            au.PlayOneShot( sonidoVictoria );
         }
     }
 

@@ -10,6 +10,8 @@ public class ControladorFerrocarril : MonoBehaviour
     public GameObject[] niveles;
     public Text piezasPuzzle, estrellas, textNivelGanado;
     public Animator animGrilla;
+    public AudioSource au;
+    public AudioClip sonidoVictoria;
 
     /// <summary>
     /// Esta variable la uso para el seguimiento del nivel actual
@@ -49,7 +51,7 @@ public class ControladorFerrocarril : MonoBehaviour
     }
     public void iniciarNivel( int numeroDeNivel )
     {
-        if (numeroDeNivel <= maximoNivelAlcanzado || numeroDeNivel==20)
+        if (numeroDeNivel <= maximoNivelAlcanzado || numeroDeNivel == 20)
         {
             pantallasDeSeleccion.SetActive( false );
             switch (numeroDeNivel)
@@ -107,6 +109,7 @@ public class ControladorFerrocarril : MonoBehaviour
         juego20.SetActive( false );
         pantallaDeVictoria.SetActive( true );
         textNivelGanado.text = "NIVEL " + nivelActual;
+        au.PlayOneShot( sonidoVictoria );
 
         if (nivelActual == 4)
         {

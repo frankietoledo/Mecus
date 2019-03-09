@@ -10,6 +10,8 @@ public class ControladorHuerto : MonoBehaviour
     public GameObject[] niveles;
     public Text piezasPuzzle, estrellas, textNivelGanado;
     public Animator animGrilla;
+    public AudioSource au;
+    public AudioClip sonidoVictoria;
 
     /// <summary>
     /// Esta variable la uso para el seguimiento del nivel actual
@@ -105,6 +107,7 @@ public class ControladorHuerto : MonoBehaviour
         juego20.SetActive( false );
         pantallaDeVictoria.SetActive( true );
         textNivelGanado.text = "NIVEL " + nivelActual;
+        au.PlayOneShot( sonidoVictoria );
 
         if (nivelActual == 3)
         {

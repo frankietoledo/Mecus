@@ -11,6 +11,8 @@ public class ControladorPuenteFierro : MonoBehaviour
     public float tiempoDeEspera;
     public Text piezasPuzzle, estrellas, textNivelGanado;
     public Animator animGrilla,animNiveles;
+    public AudioSource au;
+    public AudioClip sonidoVictoria;
 
     /// <summary>
     /// Esta variable la uso para el seguimiento del nivel actual
@@ -114,6 +116,8 @@ public class ControladorPuenteFierro : MonoBehaviour
         juego20.SetActive( false );
         pantallaDeVictoria.SetActive( true );
         textNivelGanado.text = "NIVEL " + nivelActual;
+        au.PlayOneShot( sonidoVictoria );
+
         if (nivelActual == 4)
         {
             nivelActual = 20;
