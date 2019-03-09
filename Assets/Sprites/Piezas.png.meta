@@ -1313,8 +1313,8 @@ TextureImporter:
         serializedVersion: 2
         x: 3817
         y: 2326
-        width: 132
-        height: 116
+        width: 192
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1431,10 +1431,10 @@ TextureImporter:
       name: Piezas_66
       rect:
         serializedVersion: 2
-        x: 3817
+        x: 3819
         y: 2041
-        width: 117
-        height: 125
+        width: 192
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2452,8 +2452,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3428
-        y: 520
-        width: 178
+        y: 521
+        width: 192
         height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2474,7 +2474,7 @@ TextureImporter:
         x: 3691
         y: 555
         width: 192
-        height: 112
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2492,9 +2492,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4066
-        y: 562
-        width: 160
-        height: 113
+        y: 564
+        width: 192
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2513,8 +2513,8 @@ TextureImporter:
         serializedVersion: 2
         x: 4331
         y: 559
-        width: 178
-        height: 105
+        width: 192
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

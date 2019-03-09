@@ -1794,6 +1794,7 @@ GameObject:
   - component: {fileID: 823063824}
   - component: {fileID: 823063823}
   - component: {fileID: 823063822}
+  - component: {fileID: 823063825}
   m_Layer: 5
   m_Name: EstrellaDeFondo
   m_TagString: Untagged
@@ -1856,7 +1857,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300130, guid: 2c821d5536e9a054e8a0292b8fe844bd, type: 3}
+  m_Sprite: {fileID: 21300020, guid: b5a313b8a5624cb4ca1ae579e6432c18, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1871,6 +1872,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823063820}
   m_CullTransparentMesh: 0
+--- !u!114 &823063825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 823063820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 5, y: 5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &823478629
 GameObject:
   m_ObjectHideFlags: 0
